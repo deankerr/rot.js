@@ -20,5 +20,11 @@ export interface DisplayOptions {
     tileSet: null | HTMLCanvasElement | HTMLImageElement | HTMLVideoElement | ImageBitmap;
     tileColorize: Boolean;
 }
-export declare type DisplayData = [number, number, string | string[] | null, string, string];
+export declare type DisplayData = [
+    number,
+    number,
+    string | string[] | null,
+    string | string[],
+    string | string[]
+];
 export {};

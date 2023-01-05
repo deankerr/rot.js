@@ -73,8 +73,7 @@ export default class Display {
      * @param {string || string[]} ch One or more chars (will be overlapping themselves)
      * @param {string} [fg] foreground color
      * @param {string} [bg] background color
-     */
-    draw(x: number, y: number, ch: string | string[] | null, fg: string | null, bg: string | null): void;
+     */ draw(x: number, y: number, ch: string | string[] | null, fg: string | string[] | null, bg: string | string[] | null): void;
     /**
      * @param {int} x
      * @param {int} y
